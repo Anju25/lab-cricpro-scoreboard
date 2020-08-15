@@ -14,3 +14,93 @@
     font-style: normal;
     
 }
+body{
+	
+	font-family: Nunito Sans;
+	font-size: 20px;
+	font-weight: 100;
+	background-image: url("./assets/background-image1.png");
+	background-position: right;
+	background-repeat: none;
+	background-size: cover;
+}
+span{
+	font-family: Nunito sans;
+	font-weight:500px;
+	font-size:50px;
+	
+}
+header{
+	padding-left:50px;
+	padding-top:10px;
+	height:570;
+	width:303;
+}
+header p{
+
+	font-size: 20px;
+}
+nav{
+	padding-left:1000px;
+}
+.class-container{
+	margin-right:50px;
+	padding-left:30px;
+}
+table{
+	 margin-left:20px;
+	 margin-top:5px;
+	justify-content: center;
+	font-size:20px;
+	border-spacing:0px 1px; /* 0px for left and right and 3 px for top and bottom */
+	border-collapse:separate;
+    padding-top:5px;
+	padding-bottom:5px;  
+}
+
+ #tr2,#tr3,#tr4,#tr5,#tr6,#tr7,#tr8,#tr9,#tr10,#tr11{
+	background-color:white;
+	  border-radius:5px;
+	} 
+#tr1{
+		background-color:orangered;
+	}
+#tr1 td{
+		padding:8px 0;
+		padding-left:10px;
+	}
+#tr9 td{
+	padding:8px;
+}
+#tr10 td{
+	padding:8px;
+}
+#tr11 td{
+	padding:8px;
+}
+#tr2 td{
+	padding:8px 40px 8px 10px;
+} 
+#tr3 td{
+	 padding:8px 40px 5px 10px;
+}
+ #tr4 td{
+	padding:8px 30px 5px 10px;
+ }
+ #tr5 td{
+	padding:8px 30px 5px 10px;
+ }
+ #tr6 td{
+	padding:8px 15px 5px 10px;
+ }
+ #tr7 td{
+	padding:8px 30px 5px 10px;
+ }
+ #tr8 td{
+	padding:8px 30px 5px 10px;
+ }
+a{
+	text-decoration: none;
+	color:blue;
+	cursor:pointer;
+ }
